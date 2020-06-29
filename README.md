@@ -20,7 +20,8 @@ $ rename -n 's/(\d+)/sprintf "%03d", $1/e' *.text
 
 Output:
 ```
-rename(1.text, 001.text)
-rename(2.text, 002.text)
-rename(3.text, 003.text)
+1.text renamed as 001.text
+2.text renamed as 002.text
+3.text renamed as 003.text
+
 ```
